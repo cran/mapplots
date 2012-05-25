@@ -7,7 +7,7 @@ function(x,y,z,radius,scale=T,labels=NA,silent=TRUE,...){
   if(dim(z)[1]!=nx) stop('the number of rows in of z should match as the length of x and y')
   if(sum(z,na.rm=T)==0) stop('z has no data')
   maxsumz <- max(rowSums(z),na.rm=T)
-  progressMsg(0)
+  pm <- setProgressMsg(1,nx)
   for(i in 1:nx){
     xi <- x[i]
     yi <- y[i]
@@ -16,7 +16,7 @@ function(x,y,z,radius,scale=T,labels=NA,silent=TRUE,...){
     if(length(radius)>1) radiusi <- radius[i] else radiusi = radius
     if(scale & length(radius)==1) radiusi <- radius*sqrt(sum(zi,na.rm=T))/sqrt(maxsumz)
     if(sum(zi)>0) add.pie(zi,xi,yi,labels,radius=radiusi,...)
-    if(!silent) progressMsg(i,0,nx)
+    if(!silent) pm <- progressMsg(pm,i)
   }
 }
 

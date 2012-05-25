@@ -1,10 +1,10 @@
 Package: mapplots
 Type: Package
 Title: Data visualisation on maps
-Version: 1.1
+Version: 1.2
 Date: 2012-05-25
 Author: Hans Gerritsen
-Maintainer: <hans.gerritsen@marine.ie>
+Maintainer: Hans Gerritsen <hans.gerritsen@marine.ie>
 Depends: R (>= 2.10.0)
 Suggests: shapefiles, rgdal
 Description: Create simple maps; add sub-plots like pie plots to a map
@@ -13,6 +13,6 @@ Description: Create simple maps; add sub-plots like pie plots to a map
         functions can be used for more generic data visualisation.
 License: GPL (>= 2)
 LazyLoad: yes
-Packaged: 2012-06-26 09:14:16 UTC; hgerritsen
+Packaged: 2012-12-18 15:16:32 UTC; hgerritsen
 Repository: CRAN
-Date/Publication: 2012-06-26 09:30:49
+Date/Publication: 2012-12-19 11:39:41

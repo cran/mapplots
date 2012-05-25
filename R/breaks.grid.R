@@ -1,5 +1,5 @@
 breaks.grid <-
-function(grd,quantile=0.955,ncol=12,zero=TRUE){
+function(grd,quantile=0.975,ncol=12,zero=TRUE){
   
   # in order to deal with multigrid as well as grid, make it into a list
   if(is.list(grd)==F) grd <- list(grd)

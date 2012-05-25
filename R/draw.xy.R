@@ -16,7 +16,7 @@ function(x,y,xx,yy,xlim=NULL,ylim=NULL,width=1,height=0.5,bg=NULL,border=1,type=
   if(!silent) message('...data converted.')
   if(!silent) message('Plotting data:')  
   nxy <- length(lst)
-  progressMsg(0)
+  pm <- setProgressMsg(1,nxy)
   for(i in 1:nxy){
     lsti <- lst[[i]]
     xi <- lsti$x[1]
@@ -27,7 +27,7 @@ function(x,y,xx,yy,xlim=NULL,ylim=NULL,width=1,height=0.5,bg=NULL,border=1,type=
     coli <- as.character(lsti$col)
     rect(xi-0.5*width,yi-0.5*height,xi+0.5*width,yi+0.5*height,col=bg,border=border)
     if(type=='h') segments(xxi,yyi,xxi,yy0,lend=2,coli,...) else points(xxi,yyi,type,col=coli,...)
-    if(!silent) progressMsg(i,0,nxy)
+    if(!silent) pm <- progressMsg(pm,i)
     }
 }
 

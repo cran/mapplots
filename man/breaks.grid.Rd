@@ -7,7 +7,7 @@ Define breakpoints for colour scales
 This function can be used to define breakpoints for use with the functions \code{\link{draw.grid}} and \code{\link{legend.grid}}
 }
 \usage{
-breaks.grid(grd, quantile = 0.955, ncol = 12, zero = TRUE)
+breaks.grid(grd, quantile = 0.975, ncol = 12, zero = TRUE)
 }
 \arguments{
   \item{grd}{

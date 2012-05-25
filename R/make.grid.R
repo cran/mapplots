@@ -8,7 +8,7 @@ function(x,y,z,byx,byy,xlim,ylim,
   Y <- seq(ylim[1],ylim[2],by=byy)
   
   # find which grid cells each datapoint falls into
-  i <- which(x>=xlim[1] & x<xlim[2]+0.5*byx & y>=ylim[1] & y<ylim[2]+0.5*byy)
+  i <- which(x>=xlim[1]-0.5*byx & x<xlim[2]+0.5*byx & y>=ylim[1]-0.5*byy & y<ylim[2]+0.5*byy)
   xi <- findInterval(x[i],X-0.5*byx)
   yi <- findInterval(y[i],Y-0.5*byy)
   

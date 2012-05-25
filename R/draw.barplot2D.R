@@ -11,7 +11,7 @@ function(x,y,z,width,height,scale=F,col=NULL,col.frame='black',lwd.frame=1,silen
   if(length(width)!=length(height)) stop('width and height should have the same length')
   if(length(width)>1 & length(width)!=length(x)) stop('width and height should have the same length as x and y')  
   maxsumz <- max(rowSums(z),na.rm=T)
-  progressMsg(0)
+  pm <- setProgressMsg(1,nx)
   for(i in 1:nx){
     xi=x[i]
     yi=y[i]
@@ -24,7 +24,7 @@ function(x,y,z,width,height,scale=F,col=NULL,col.frame='black',lwd.frame=1,silen
     }
     j=which(zi>0)
     if(sum(zi,na.rm=T)>0) barplot2D(z=zi[j],colour=col[j],x=xi,y=yi,width=widthi,height=heighti,add=T,col.frame,lwd.frame,...)
-    if(!silent) progressMsg(i,0,nx)
+    if(!silent) pm <- progressMsg(pm,i)
     }
 }
 
