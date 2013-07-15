@@ -43,4 +43,3 @@ draw.rect()
 points(lon,lat)
 text(lon,lat,rect,cex=0.7,pos=3)
 }
-\keyword{manip}

@@ -43,5 +43,3 @@ draw.grid(grd,breaks)
 draw.shape(coast, col="darkgreen")
 legend.grid("topright", breaks=breaks/1000, type=2, inset=0.02, title="tonnes")
 }
-\keyword{aplot}
-\keyword{graphs}

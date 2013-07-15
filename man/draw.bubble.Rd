@@ -39,5 +39,3 @@ legend.z <- round(max(agg$z)/1000,0)
 legend.bubble("topright", z=legend.z, maxradius=0.5, inset=0.02, bg="lightblue", txt.cex=0.8,
  pch=21, pt.bg="#00FF0050")
 }
-\keyword{aplot}
-\keyword{graphs}

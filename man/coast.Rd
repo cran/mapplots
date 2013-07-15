@@ -11,4 +11,3 @@ Shapefile list object (see: \code{\link[shapefiles]{shapefiles}}) of the Irish a
 \references{
 \url{http://www.ngdc.noaa.gov/mgg/shorelines/gshhs.html}
 }
-\keyword{datasets}

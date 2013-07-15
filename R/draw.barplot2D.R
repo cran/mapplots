@@ -10,7 +10,7 @@ function(x,y,z,width,height,scale=F,col=NULL,col.frame='black',lwd.frame=1,silen
   if(dim(z)[1]!=nx) stop('the number of rows in of z should match as the length of x and y')
   if(length(width)!=length(height)) stop('width and height should have the same length')
   if(length(width)>1 & length(width)!=length(x)) stop('width and height should have the same length as x and y')  
-  maxsumz <- max(rowSums(z),na.rm=T)
+  maxsumz <- max(rowSums(z,na.rm=T),na.rm=T)
   pm <- setProgressMsg(1,nx)
   for(i in 1:nx){
     xi=x[i]

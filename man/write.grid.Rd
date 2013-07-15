@@ -49,4 +49,3 @@ write.grid(grd,"c:/test1.csv")
 write.grid(grd,"c:/test1","shape")
 }
 }
-\keyword{file}

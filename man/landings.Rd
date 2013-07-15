@@ -8,4 +8,3 @@ Landings data of some gadoid species (cod, haddock, hake, saithe and whiting) at
 \usage{landings}
 \format{data frame}
 \source{Logbooks database}
-\keyword{datasets}

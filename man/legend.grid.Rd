@@ -27,7 +27,7 @@ integer indicating the number of significant places to be used in the legend. De
 character string to be placed after the legend entries, e.g. \code{"kg"}.
 }
   \item{type}{
-integer specifying the legend type, \code{1} will result in a single value for each colour (the highest value for each colour category). \code{2} will result in a range being displayed for each colour category. This is more accurate but can make the legend take up a lot of space.
+integer specifying the legend type, \code{1} will result in a single value for each colour (the average value for each colour category). Type \code{2} will result in a range being displayed for each colour category. This is more accurate but can make the legend take up a lot of space.
 }
   \item{pch}{
 plotting character, i.e., symbol to use. This can either be a single character or an integer code for one of a set of graphics symbols. See \code{\link{points}}. Defaults to 15.

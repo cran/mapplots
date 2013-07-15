@@ -42,5 +42,3 @@ ylim <- c(51.5,55.5)
 basemap(xlim, ylim)
 draw.shape(irl, col="cornsilk")
 }
-\keyword{aplot}
-\keyword{graphs}

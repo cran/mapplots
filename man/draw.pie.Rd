@@ -54,5 +54,3 @@ legend.z <- round(max(rowSums(xyz$z,na.rm=TRUE))/10^6,0)
 legend.bubble(-13.25,55.5,z=legend.z,round=1,maxradius=0.3,bty="n",txt.cex=0.6)
 text(-13.25,56,"landings (kt)",cex=0.8) 
 }
-\keyword{aplot}
-\keyword{graphs}

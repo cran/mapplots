@@ -70,5 +70,3 @@ draw.shape(coast, col="cornsilk")
 draw.barplot2D(xyz$x, xyz$y, xyz$z, width = 1, height = 0.5, scale=TRUE, col=col)
 legend("topright", legend=colnames(xyz$z), fill=col, bg="lightblue", inset=0.02)
 }
-\keyword{aplot}
-\keyword{graphs}

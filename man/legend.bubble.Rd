@@ -73,5 +73,3 @@ draw.bubble(agg$x, agg$y, agg$z, maxradius=0.5, pch=21, bg="#00FF0050")
 legend.bubble("topright", z=round(max(agg$z)/1000,0), maxradius=0.5, inset=0.02, bg="lightblue",
  txt.cex=0.8, pch=21, pt.bg="#00FF0050")
 }
-\keyword{aplot}
-\keyword{graphs}

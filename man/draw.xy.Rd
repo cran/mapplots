@@ -68,5 +68,3 @@ legend("topleft", c(month.abb,"Effort"), pch=c(rep(22,12),16), pt.bg=c(col,NA),
  pt.cex=c(rep(2,12),0.8),col=c(rep(1,12),2), lty=c(rep(NA,12),1), bg="lightblue",
  inset=0.02, title="Landings", cex=0.8)
 }
-\keyword{aplot}
-\keyword{graphs}

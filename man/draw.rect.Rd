@@ -37,4 +37,3 @@ ylim <- c(50,56)
 basemap(xlim, ylim)
 draw.rect()
 }
-\keyword{aplot}

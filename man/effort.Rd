@@ -8,4 +8,3 @@ Monthly fishing effort and haddock landings landings at a spatial resolution of 
 \usage{effort}
 \format{data frame}
 \source{EU Logbooks database}
-\keyword{datasets}

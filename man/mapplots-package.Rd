@@ -25,4 +25,3 @@ Hans Gerritsen
 
 Maintainer: <hans.gerritsen@marine.ie>
 }
-\keyword{ package }
