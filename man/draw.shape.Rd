@@ -40,7 +40,7 @@ irl <- read.shapefile(shp.file)
 xlim <- c(-11,-5.5)
 ylim <- c(51.5,55.5)
 basemap(xlim, ylim)
-draw.shape(irl, col='cornsilk')
+draw.shape(irl, col="cornsilk")
 }
 \keyword{aplot}
 \keyword{graphs}

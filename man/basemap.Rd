@@ -17,16 +17,16 @@ the x limits (x1, x2) of the plot.
 the y limits of the plot.
 }
   \item{xlab}{
-a label for the x axis, defaults to a 'Longitude'.
+a label for the x axis, defaults to "Longitude".
 }
   \item{ylab}{
-a label for the y axis, defaults to a 'Latitude'.
+a label for the y axis, defaults to "Latitude".
 }
   \item{bg}{
-background colour for the map, defaults to 'lightblue'
+background colour for the map, defaults to "lightblue".
 }
   \item{\dots}{
-other arguments to be passed to \code{\link{plot.default}}
+other arguments to be passed to \code{\link{plot.default}}.
 }
 }
 \details{
@@ -42,6 +42,6 @@ data(coast)
 xlim <- c(-11,-5.5)
 ylim <- c(51.5,55.5)
 basemap(xlim, ylim)
-draw.shape(coast, col='cornsilk')
+draw.shape(coast, col="cornsilk")
 }
 \keyword{hplot}

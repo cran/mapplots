@@ -7,9 +7,9 @@ Add pie plot to existing plot
 This function is used by \code{\link{draw.pie}} to add a pie plot at a specific location to an existing plot. It can be used directly but in general it is advisable to use \code{\link{draw.pie}} instead.
 }
 \usage{
-add.pie(z, x = 0, y = 0, labels = names(z), radius = 1, edges = 200, clockwise = TRUE, 
-	init.angle = 90, density = NULL, angle = 45, col = NULL, border = NULL, lty = NULL, 
-	label.dist = 1.1, ...)
+add.pie(z, x = 0, y = 0, labels = names(z), radius = 1, edges = 200, clockwise = 
+  TRUE, init.angle = 90, density = NULL, angle = 45, col = NULL, border = NULL, 
+  lty =  NULL, label.dist = 1.1, ...)
 }
 \arguments{
   \item{z}{

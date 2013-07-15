@@ -49,8 +49,8 @@ par(mfrow=c(2,3),mar=c(1,1,2,1) )
 for(s in names(grd) ) {
   basemap(xlim, ylim, main = s, axes=FALSE)
   draw.grid(grd[[s]],breaks)
-  draw.shape(coast, col='darkgreen')
+  draw.shape(coast, col="darkgreen")
 }
 plot.new()
-legend.grid('center',breaks=breaks/1000,type=2)
+legend.grid("center",breaks=breaks/1000,type=2)
 }

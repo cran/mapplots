@@ -13,7 +13,7 @@ draw.rect(col = "grey", lty = 2, ...)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{col}{
-colour of the lines, defaults to 'grey'.
+colour of the lines, defaults to "grey".
 }
   \item{lty}{
 line type, defaults to 2.

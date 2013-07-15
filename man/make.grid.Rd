@@ -5,7 +5,7 @@ Create grd object
 }
 \description{
 Create a grd object from \code{x}, \code{y} and \code{z} data.
-For use with \code{\link{draw.grid}} and \code{\link{geoTiff}}.
+For use with \code{\link{draw.grid}} and \code{\link{write.grid}}.
 }
 \usage{
 make.grid(x, y, z, byx , byy , xlim, ylim, fun = function(x) sum(x, na.rm = T))
@@ -33,8 +33,13 @@ a function to be applied to \code{z}. Defaults to \code{sum}.
 }
 \details{
 Due to the way fractions are stored in binary format, rounding errors can occur, e.g.:
- \code{as.character(seq(-5,0,by=0.8))} results in
+
+ \code{as.character(seq(-5,0,by=0.8))} 
+ 
+ results in:
+ 
  \code{"-5"	"-4.2"	"-3.4"	"-2.6"	"-1.8"	"-1"	"-0.199999999999999"}
+
 this can affect the \code{make.grid} function although this is generally not a problem.
 }
 \value{
@@ -55,8 +60,8 @@ xlim <- c(-15.5,0)
 ylim <- c(50.25,56)
 grd <- make.grid(landings$Lon,landings$Lat,landings$LiveWeight, byx, byy, xlim, ylim)
 breaks <- breaks.grid(grd,zero=FALSE)
-basemap(xlim, ylim, main = 'Gadoid landings')
+basemap(xlim, ylim, main = "Gadoid landings")
 draw.grid(grd,breaks)
-draw.shape(coast, col='darkgreen')
-legend.grid('topright', breaks=breaks/1000, type=2, inset=0.02, title='tonnes')
+draw.shape(coast, col="darkgreen")
+legend.grid("topright", breaks=breaks/1000, type=2, inset=0.02, title="tonnes")
 }

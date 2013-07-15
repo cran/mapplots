@@ -32,7 +32,7 @@ Hans Gerritsen
 }
 \examples{
 # rectangle names to coordinates:
-ices.rect(c('36E2','3600','40D8'))
+ices.rect(c("36E2","3600","40D8"))
 
 # coordinates to rectangle names:
 lon <- rnorm(10,-10,2)

@@ -10,6 +10,7 @@ progressMsg <-
   function (pm, value, round = 0) 
   {
     if(!is.finite(value) || value < pm$min || value > pm$max) return(pm)
+    if(value==pm$min) message(pm$t0)
     pc <- round(100 * (value - pm$min)/(pm$max - pm$min), round)
     if(pc == pm$pc) return(pm)
     dT <- as.numeric(difftime(Sys.time(), pm$t0, units = "secs"))
@@ -18,10 +19,11 @@ progressMsg <-
         2), "days"), ifelse(rT > 3600, paste(round(rT/3600, 
         2), "hours"), ifelse(rT > 60, paste(round(rT/60, 
         2), "minutes"), paste(round(rT, 0), "seconds"))))
-    cat(paste("\r",pc, "% completed ", remaining, 
-        " remaining  ", sep = ""))
+    v <- signif(pc/dT,2)
+    cat(paste("\r",pc, "% completed; ", remaining, 
+        " remaining; ", v, "% per second     ",sep = ""))
     flush.console()
     pm$pc <- pc
-    if(value>=pm$max) cat('\n')
+    if(value>=pm$max) message(Sys.time())
     return(pm)
 }

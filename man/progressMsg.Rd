@@ -39,10 +39,13 @@ Hans Gerritsen
 See also \code{\link[utils]{txtProgressBar}}
 }
 \examples{
-pm <- setProgressMsg(0,500)
-for(i in 1:500) {
-  Sys.sleep(0.01)
-  pm<- progressMsg(pm,i)
-}
-rm(pm)
+\dontrun{
+  pm <- setProgressMsg(0,500)
+  for(i in 1:500) {
+    pm<- progressMsg(pm,i)
+    Sys.sleep(0.01)
+  
+  }
+  rm(pm)
+  }
 }
