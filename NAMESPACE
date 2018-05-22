@@ -1,2 +1,8 @@
 # Export all names
 exportPattern(".")
+  importFrom("grDevices", "as.graphicsAnnot", "colorRampPalette")
+  importFrom("graphics", "abline", "axis", "box", "image", "lines",
+             "par", "plot", "plot.new", "plot.window", "points",
+             "polygon", "rect", "segments", "text")
+  importFrom("stats", "na.omit")
+  importFrom("utils", "flush.console", "write.csv", "write.table")
