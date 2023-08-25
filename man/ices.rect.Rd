@@ -25,7 +25,7 @@ a vector with longitude and latitude (not neccesarily the mid-points of rectangl
 \code{ices.rect2} will return a vector with the names of the ICES rectangles.
 }
 \references{
-ICES statistical rectangles \url{www.ices.dk} are rectangles of 1 degree longitude x 0.5 degrees latitude. They are used for reporting of fishinge effort and landings.
+ICES statistical rectangles \url{https://www.ices.dk} are rectangles of 1 degree longitude x 0.5 degrees latitude. They are used for reporting of fishinge effort and landings.
 }
 \author{
 Hans Gerritsen

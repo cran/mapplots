@@ -1,4 +1,4 @@
-a1a0386129d5d494c0304107ada279a5 *DESCRIPTION
+3d827f2572669f582ecc72e3494c46e9 *DESCRIPTION
 f22cff12ef9016f3eb35960d340b3007 *NAMESPACE
 e45d9fedb5735bf6675c87ad0af2f3d0 *R/add.pie.R
 a757fbee4788fe6f3102417f5adeff80 *R/barplot2D.R
@@ -33,18 +33,18 @@ a30e9dd3ae263e09863f172fc00e2796 *man/add.pie.Rd
 4f8814d7d96d6ae71c925cbd48863b6b *man/barplot2D.Rd
 93ac778e6294951fa88937efa8d7992c *man/basemap.Rd
 548f54e863f22e112225563023d22a88 *man/breaks.grid.Rd
-7b3f5b6f0f3c0334e4e781bc45f670b4 *man/coast.Rd
+e68884bd9f05eb231e8c9105d99fefe6 *man/coast.Rd
 19dc5683cf8c40a7b5d88cd0212e4826 *man/draw.barplot2D.Rd
 55661dd67c4e65928b9c1256d90731ee *man/draw.bubble.Rd
 0ea3510b8d3cb0b520e4446cc5f88ec5 *man/draw.grid.Rd
 d70c0597acf329172dae73ee39bd8ea7 *man/draw.pie.Rd
-2b76ab1efdd7e80dbdc2fb66cad4a131 *man/draw.rect.Rd
+a41c304b4ba6029e0229cdbdc64f415a *man/draw.rect.Rd
 156e59201be83fbcec2ea3190e4b6d03 *man/draw.shape.Rd
 dcb081c369d9cfc12031b4287f3a776f *man/draw.xy.Rd
-1367dbb07d496ffad0e2423bc4b1a608 *man/effort.Rd
+01b56a558c4ff4b454862da87c2f7bef *man/effort.Rd
 edc756dfeb44ee04886001ed7f1f3925 *man/get.asp.Rd
-4110e9d3b0b1e22d39bbd511589b5843 *man/ices.rect.Rd
-1dab1ce46beea15404719c7fb87f5cd7 *man/landings.Rd
+9ef1fcb17d6405cc401a51f84a2d38e7 *man/ices.rect.Rd
+d0f68471fc8a99a863ff8a0f70d8a882 *man/landings.Rd
 eb999a058945ce302496c4270adc08f7 *man/legend.box.Rd
 d269143b012103fa2d634da0215c935a *man/legend.bubble.Rd
 07eba6a6c13df7003a69e3d2822779e6 *man/legend.grid.Rd
@@ -52,6 +52,6 @@ d269143b012103fa2d634da0215c935a *man/legend.bubble.Rd
 d6163ca59b1686db1e00ccb8594c5ccf *man/make.grid.Rd
 ec90a78ff70643ec169e1a6267e931b8 *man/make.multigrid.Rd
 c7a0056cb48cf502241b310f8967b2c6 *man/make.xyz.Rd
-4fa897bf1c1252aea55d04c42957c745 *man/mapplots-package.Rd
+fd69f93b80f759a12fd8ffa43c7ba60a *man/mapplots-package.Rd
 248aafa8903403fc1c3e44653a299bf8 *man/progressMsg.Rd
 6cbccb66822292875b067b438ad8379d *man/write.grid.Rd
